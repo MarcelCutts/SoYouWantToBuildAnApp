@@ -1,0 +1,244 @@
+.ft-page {
+  padding: 0 !important;
+  background: url('../assets/img/geobg.png') repeat;
+}
+
+
+.landing .background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('../assets/img/landingbg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  z-index: -10;
+}
+
+.landing .background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+}
+
+.landing .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  z-index: 200;
+  z-index: 2;
+  height: 100vh;
+  margin: auto;
+}
+
+.landing .left-column {
+  width: 60%;
+  height: 50%;
+  text-align: center;
+}
+
+.landing .left-column h1 {
+  font-size: 8rem;
+}
+
+.landing hr {
+  margin: 100px auto 40px auto;
+  width: 66%;
+}
+
+.landing .author {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 2rem;
+}
+
+
+.zr .background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('../assets/img/zrbg.png') no-repeat center center;
+  background-size: cover;
+  z-index: -10;
+}
+
+
+.os .container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.os .container__share {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.os .container__share #applelogo {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.os .container__share.others img {
+  max-width: 50%;
+  max-height: 15%;
+  margin: auto;
+}
+
+.os .container__share .percentage {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.os .container__share .percentage h1 {
+  font-size: 5rem;
+}
+
+.meat .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+
+.meat .side {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.ios.meat .side {
+  background-color: #C7C7CC;
+}
+
+.droid.meat .side {
+  background-color: rgb(164, 198, 57);
+}
+
+.ios .side img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.meat .content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.meat .content img {
+  max-height: none;
+  max-width: none;
+  width: 30vw;
+}
+
+.meat .content p {
+  font-size: 4rem;
+}
+
+.meat .content .inline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 10%;
+}
+
+.meat .content  hr {
+  width: 50%;
+}
+
+
+.meat .content .inline p {
+  font-size: 6rem;
+  margin-left: 5%;
+}
+
+.meat .content .inline img{
+  width: 15vw;
+}
+
+.meat .content .standalone{
+  width: 50vw;
+}
+
+
+.questions .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  z-index: 200;
+  z-index: 2;
+  height: 100vh;
+  margin: auto;
+}
+
+.questions .background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('../assets/img/questionsbg.gif') no-repeat center center;
+  background-size: cover;
+  z-index: -10;
+}
+
+.questions .author {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 3rem;
+  text-shadow: 1px 2px 0 rgb(90, 49, 24);
+}
+
+.questions .left-column {
+  width: 60%;
+  height: 50%;
+  text-align: center;
+}
+
+.questions .left-column h1 {
+  font-size: 8rem;
+  color: #FFF;
+  text-shadow: 1px 2px 0 rgb(90, 49, 24);
+}
+
+.questions .background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
